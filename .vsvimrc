@@ -8,7 +8,7 @@ set smartcase		" only ignore case if all lowercase
 
 " Movement between lines
 set backspace=indent,eol,start	" allow backspace at start line etc.
-set whichwrap=b,s,<,>,h,l		" wrap cursors correctly
+set whichwrap=b,s,<,>,[,],h,l	" wrap cursors correctly
 " move vertically by visual line (ignore wrap)
 nnoremap j gj
 nnoremap k gk

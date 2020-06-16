@@ -21,7 +21,7 @@ set tabstop=4		" tabs are displayed as 4 spaces
 
 " Movement between lines
 set backspace=indent,eol,start	" allow backspace at start line etc.
-set whichwrap=b,s,<,>,h,l		" wrap cursors correctly
+set whichwrap=b,s,<,>,[,],h,l	" wrap cursors correctly
 set scrolloff=5		" scroll offset, scroll before cursor reaches top/bottom
 " move vertically by visual line (ignore wrap)
 nnoremap j gj
