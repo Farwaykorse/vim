@@ -1,0 +1,23 @@
+" VsVim specific configuration
+"====----------------------------------------------------------------------===="
+
+" Search
+set incsearch		" incremental search
+set ignorecase		" ignore case in search
+set smartcase		" only ignore case if all lowercase
+
+" Movement between lines
+set backspace=indent,eol,start	" allow backspace at start line etc.
+set whichwrap=b,s,<,>,h,l		" wrap cursors correctly
+" move vertically by visual line (ignore wrap)
+nnoremap j gj
+nnoremap k gk
+set scrolloff=5		" scroll offset
+
+" Risky keybindings
+" make substitute for <esc> while in insert mode
+inoremap jj <esc>
+" use space to close/open folds in normal mode
+nnoremap <space> za
+
+"====----------------------------------------------------------------------===="
